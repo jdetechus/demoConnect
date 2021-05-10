@@ -86,7 +86,7 @@ export default function routes(app, addon) {
         port: 443,
         path: '/landscape?site=jdetech.atlassian.net&projectID=JL',
         method: 'GET',
-        headers: { 'x-api-key': 'AIzaSyAI4xplSIn-tzvjDF_A1MsNZ7G7PqSi02w' }
+        headers: { 'x-api-key': 'some key' }
       };
 
       //https.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY', (resp) => {
